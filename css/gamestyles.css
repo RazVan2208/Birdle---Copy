@@ -1,0 +1,56 @@
+body{
+    background-color: antiquewhite;
+}
+
+#Title{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    vertical-align: top;
+}
+
+#Description{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+#Image{
+    border-radius: 5px;
+}
+
+.title-bar{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align:center;
+}
+
+.answer-box{
+    margin-right: auto;
+}
+
+input[type="text"] {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+button{
+    background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #3e8e41;
+  }
+
