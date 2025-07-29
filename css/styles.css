@@ -53,3 +53,10 @@ body{
     margin-top: 20px;
     color:black;
 }
+
+#game-table, th, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
