@@ -69,3 +69,32 @@ button:hover {
     background-color: #3e8e41;
   }
 
+#game-board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-table, th, tr, td{
+    border: 10px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+.letter-box{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border: 2px;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 3.5rem;
+    width: 3rem;
+    justify-content: center;
+
+}
+
+.letter-row{
+    display: flex;
+}
