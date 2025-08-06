@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/gamestyles.css">
+    <script src="js/script.js" type="module"></script>
 
 </head>
 <body>
@@ -17,9 +18,12 @@
         <img id="bird-image" src="images/download (4).png">
     </div>
     <div class="answer-box">
-        <input type="text" id="guess-1" placeholder="Enter guess here">
+        <input id="myGuess" placeholder="Enter guess here">
 
-        <button id="submit-btn">Submit</button>
+        <button id="mySubmit">Submit</button>
+
+        <label id="showGuess">Your Guess</label>
+
         
     </div>
     <div id = "game-board">
@@ -28,26 +32,10 @@
     <hr>
     <div class="game-logic">
         <h1>Game Logic</h1>
-        <table id="game-table">
-            <tr>
-                <th>Guess</th>
-                <th>Result</th>
-                <th>Hint</th>
-            </tr>
-            <tr>
-                <td>Guess 1</td>
-                <td>Result 1</td>
-            </tr>
-            <tr>
-                <td>Guess 2</td>
-                <td>Result 2</td>
-            </tr>
-           
-        </table>
+        <table id="resultStorageTable"></table>
         <h2>How Do The Hints Work?</h2>
         <table id="hint-table">
             
     </div>
-    <script src="script.js" type="module"></script>
 </body>
 </html>

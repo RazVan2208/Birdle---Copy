@@ -1,4 +1,4 @@
-export const list_of_birds = [
+const list_of_birds = [
     'accentor',
     'adjutant',
     'albatross',
@@ -592,3 +592,4 @@ export const list_of_birds = [
     'yellowthroat',
     'yuhina'
 ]
+export default list_of_birds;
